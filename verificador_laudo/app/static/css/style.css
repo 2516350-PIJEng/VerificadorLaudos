@@ -1,0 +1,43 @@
+body { font-family: Arial, sans-serif; margin: 35px; line-height: 1.6; background-color: #f4f6f9; }
+.container { max-width: 700px; background: #ffffff; padding: 25px; border-radius: 10px; box-shadow: 0 4px 15px rgba(0,0,0,0.05); }
+h2 { color: #2c3e50; border-bottom: 2px solid #ecf0f1; padding-bottom: 10px; margin-top: 0; }
+label { font-weight: bold; display: block; margin-top: 15px; color: #34495e; }
+select, input[type='text'], input[type='number'], input[type='email'] {
+    width: 100%; padding: 10px; margin-top: 5px; border: 1px solid #cbd5e1; border-radius: 5px; box-sizing: border-box;
+}
+button {
+    background-color: #1e293b; color: white; padding: 12px 18px; border: none; border-radius: 5px;
+    cursor: pointer; margin-top: 20px; width: 100%; font-size: 16px; font-weight: bold;
+}
+button:hover { background-color: #0f172a; }
+
+/* Etapas do Nível 2 */
+.passo { padding-left: 15px; margin-top: 15px; border-left: 4px solid; }
+.passo-contra { border-color: #ca7d00; }
+.passo-projetista { border-color: #0056b3; }
+.passo-complementar { border-color: #d9534f; }
+.cor-contra { color: #ca7d00; }
+.cor-projetista { color: #0056b3; }
+.cor-complementar { color: #d9534f; }
+
+/* Resultado */
+.alerta { padding: 15px; border-radius: 6px; margin-top: 20px; font-weight: bold; border: 1px solid; }
+.alerta h3 { margin: 0 0 6px; }
+.alerta p { margin: 0; }
+.alerta-aprovado  { background-color: #dcfce7; color: #15803d; border-color: #bbf7d0; }
+.alerta-restricao { background-color: #fef9c3; color: #a16207; border-color: #fef08a; }
+.alerta-pendente  { background-color: #f1f5f9; color: #475569; border-color: #cbd5e1; }
+.alerta-decisao   { background-color: #ffedd5; color: #c2410c; border-color: #fed7aa; }
+.alerta-reprovado, .alerta-erro { background-color: #fee2e2; color: #b91c1c; border-color: #fca5a5; }
+.alerta-info      { background-color: #e0f2fe; color: #0369a1; border-color: #bae6fd; }
+.status-email {
+    background-color: #f0fdf4; color: #166534; border: 1px solid #bbf7d0;
+    padding: 10px; margin-top: 10px; border-radius: 4px; font-size: 13px; font-weight: normal;
+}
+
+/* Histórico */
+.subtitulo { color: #2c3e50; margin-top: 30px; }
+.tabela-rolagem { overflow-x: auto; }
+table { width: 100%; border-collapse: collapse; font-size: 14px; }
+th, td { border: 1px solid #ddd; padding: 6px 8px; text-align: left; }
+th { background: #e9ecef; }
